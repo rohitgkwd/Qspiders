@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+}
+
+.main-container{
+    width: 60vw;
+    height: auto;
+    margin: 0px auto;
+}
+
+.header{
+    top: 0px;
+    width: 60vw;
+    margin: auto;
+    height: 50px;
+    background-color: #D0141E;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.input-icons{
+    width: auto;
+    margin: auto 10px auto 10px ;
+}
+
+
+.input-area{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(168, 164, 164);
+    height: 25px;
+    width: 200px;
+    font-size: 8px;
+
+
+}
+
+.icon {
+    position: relative;
+    top: 4px;
+    left: -35px;
+    color: black;
+
+ 
+}
+
+.location{
+    background: none;
+    border: none;
+    max-width: 50px;
+    font-size: 0.6rem;
+    margin-left: 20px;
+    margin-right: 25px;
+    color: white;
+    
+
+}
+
+select  option{
+    font-size: 0.6rem;
+    background:none;
+    background-color: darkred;
+}
+
+#sign-in {
+    border: none;
+    background-color: rgba(235, 27, 69, 0.831);
+    color: white;
+    font-size: 0.7em;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 1px 4px;
+}
+
+#sign-in:hover {
+    background-color: rgba(194, 19, 54, 0.831);
+    cursor: grab;
+}
+
+.bars{
+    color: white;
+    position: relative;
+    right: -10px;
+
+}
+
+.book-sec{
+    background-image: linear-gradient(180deg, rgb(114, 64, 64),rgb(41, 14, 14));
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    margin-top: 2px;
+
+
+}
+
+.title{
+    color: white;
+    margin: 5px 15px 10px;
+    font-size: 1.5em;
+    display: inline-block;
+  
+}
+
+.back{
+    color: rgb(254, 253, 253);
+    margin-left: 0px;
+}
+
+i{
+    margin-left: 15px;
+    color: red;
+    display: inline;
+    
+}
+
+.like{
+    display: inline;
+    color: white;
+    margin: 5px 2px;
+}
+
+.rating{
+    font-size: 0.7rem;
+    color: white;
+    display: inline;
+}
+.review{
+    display: inline-block;
+}
+
+.time-price, label{
+    
+    margin: 10px 25px 0px 10px;
+    font-size: 0.8rem;
+}
+
+p{
+    display: inline;
+    margin-left: 90px;
+    font-size: 0.8rem;
+}
+/* 
+#rupee{
+    margin-left: 27px;
+} */
+
+#time-dropdown{
+    padding: 2px 10px;
+    
+    background-color:rgb(41, 33, 13);
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+
+}
+
+.dropdown-menu{
+    
+    background-color: rgb(41, 33, 13);
+    color: white;
+    
+}
+
+.screen-sec{
+    background-color: rgb(26, 9, 9);
+    height: 95vh;
+    margin: 0px;
+    border-bottom: 1px rgb(244, 134, 134) solid;
+}
+
+.screen{
+    /* position: absolute;
+    top: 60px;
+    left: 150px; */
+    display: inline-block;
+    margin: 40px auto 20px;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    color: darkgrey;
+    background-color: rgb(246, 249, 251);
+    transform: rotateX(-45deg);
+
+}
+
+.row{
+    margin: auto;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+
+
+}
+
+.seat{
+    width: 16px;
+    height: 13px;
+    background-color: rgb(239, 244, 247);
+    margin: 5px 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.seat:not(.occupied):hover{
+    transform: scale(1.2);
+    box-shadow: 0px 1px 1px rgb(72, 67, 67);
+    cursor: grab;
+}
+
+.row-L{
+    display: flex;
+    margin-right: 20px ;
+}
+
+.row-R{
+    display: flex;
+    margin-left: 20px ;
+}
+
+
+
+.seat-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: white;
+    font-size: 0.7rem;
+    align-items: center;
+    margin: 0px auto 20px;
+    font-family:sans-serif;
+}
+
+
+
+#tickets ,#rupee, #ordertotal, #price{
+    margin: 10px; 
+    color: white;
+}
+
+.selected{
+    background-color: grey ;
+}
+
+.occupied {
+    background-color: darkred;
+}
+
+.footer{
+    position: relative;
+    margin:  auto;
+    height: 50px;
+    border-bottom: 2px solid gray ;
+    background-image: linear-gradient(to top, rgb(95, 52, 52),rgb(26, 9, 9));
+    color: white;
+    align-items: center;
+    display: flex;
+    
+}
+
+.total{
+    display: inline-block;
+    margin-left: 35px;
+    font-family:  Arial, sans-serif;
+}
+
+#pay-btn{
+    position:absolute;
+    right: 30px;
+    background-image: linear-gradient(45deg,lightgoldenrodyellow, rgb(187, 105, 46) );
+    border-radius:5px;
+    border: none;
+    padding: 5px 12px ;
+    
+
+
+}
+
+/* @keyframes anime1{
+      from{
+        background-image: linear-gradient(45deg,lightgoldenrodyellow, rgb(187, 105, 46) );
+
+
+      }  
+      to{
+        background-image: linear-gradient(45deg,lightgoldenrodyellow, rgb(46, 187, 46) );
+
+      }
+} */
+
+#pay-btn:hover {
+    background-image: linear-gradient(45deg,lightgoldenrodyellow, rgb(2, 113, 2) );
+    cursor:grab;    
+    
+}
+
+/* 
+#pay-btn:hover{
+      
+
+} */
